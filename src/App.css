@@ -1,0 +1,151 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background: rgb(255, 255, 255) !important;
+  background: linear-gradient(80deg, rgba(255,255,255,1) 20%, rgb(240, 240, 252) 98%) !important;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ui.menu {
+  background: transparent !important;
+  backdrop-filter: blur(10px) !important;
+  background: linear-gradient(90deg, rgba(112, 0, 187, 0.142) 0%, rgba(9,9,121, 0.142) 35%, rgba(0,212,255,0.142) 100%) !important;
+  border: none !important;
+  box-shadow: none !important;
+  position: fixed !important; /* Add this */
+  top: 0 !important; /* Add this */
+  width: 100% !important; /* Add this */
+  z-index: 1000 !important; /* Add this */
+ 
+}
+
+.belowNavBar {
+  margin-top: 5%;
+}
+
+/* For smaller screens (e.g., mobile devices) */
+@media (max-width: 850px) {
+  .belowNavBar {
+    margin-top: 10%;
+  }
+}
+
+/* For larger screens (e.g., desktop monitors) */
+@media (min-width: 1200px) {
+  .belowNavBar {
+    margin-top: 3%;
+  }
+}
+
+
+/* for page headers */
+.myHeader {
+  
+  font-size: 56px !important;
+  font-weight: 700 !important;
+  padding-left: 2% !important;
+  background: linear-gradient(170deg, rgb(5, 5, 255, 1) 15%, rgb(238, 3, 255) 62%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-top: 2% !important;
+  text-shadow: 0 0 100px rgba(41,41,255,1), 0 0 50px rgba(255, 255, 255, 0.5), 0 0 100px rgba(146, 3, 255, 0.922);
+}
+
+.ui.menu h1 {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 145%;
+  background: linear-gradient(90deg, rgba(111,0,187,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ui.itemgroup {
+  padding-left: 10% !important;
+}
+
+.ui.items .item {
+  border: 1px solid #a2b2f2 !important;
+  border-radius: 10px !important;
+  padding: 1rem !important;
+  margin-bottom: 0.5rem !important; /* optional: adds some space between items */
+  background: rgb(211,213,254) !important;
+  background: radial-gradient(circle, rgb(230, 231, 255) 36%, rgba(255,255,255,1) 92%) !important;
+}
+
+.ui.items .item:hover {
+  border: 1px solid #66b3ff !important; /* glow color */
+  box-shadow: 0 0 10px rgba(102, 179, 255, 0.5) !important; /* glow effect */
+}
+
+.image-with-border-radius {
+  border-radius: 50% !important;
+}
+
+.formFieldcustom{
+  border: 1px solid #a2b2f2 !important;
+  border-radius: 10px !important;
+  margin-bottom: 0.5rem !important; /* optional: adds some space between items */
+  background: rgb(211,213,254) !important;
+  background: radial-gradient(circle, rgb(244, 244, 253) 36%, rgba(255,255,255,1) 92%) !important;
+}
+
+.styledButton01 {
+  background-image: linear-gradient(to right, #9b36f4, #0051ff) !important; /* gradient background */
+  color: #ffffff!important; /* white text color */
+  border: none!important; /* remove default border */
+  padding: 10px 20px!important; /* add some padding */
+  border-radius: 5px!important; /* rounded corners */
+  cursor: pointer!important; /* change cursor on hover */
+}
+
+.styledButton01:hover {
+  box-shadow: 0 0 10px rgba(72, 0, 255, 0.5)!important; /* reverse gradient on hover */
+}
+
+.styledButtonLogout{
+  background-image: linear-gradient(to right, #9b36f4, #0051ff) !important; /* gradient background */
+  color: #ffffff!important; /* white text color */
+  border: none!important; /* remove default border */
+  padding: 10px 20px!important; /* add some padding */
+  border-radius: 5px!important; /* rounded corners */
+  cursor: pointer!important; /* change cursor on hover */
+  margin: 0.5rem !important;
+}

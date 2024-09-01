@@ -1,0 +1,12 @@
+{
+  "resourceName": "xevDatabase",
+  "tableName": "xevData",
+  "partitionKey": {
+    "fieldName": "userID",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": [
+    "ClientFetcher"
+  ]
+}

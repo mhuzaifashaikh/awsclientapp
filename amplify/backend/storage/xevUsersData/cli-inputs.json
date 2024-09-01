@@ -1,0 +1,17 @@
+{
+  "resourceName": "xevUsersData",
+  "tableName": "xevUsersData",
+  "partitionKey": {
+    "fieldName": "userID",
+    "fieldType": "string"
+  },
+  "sortKey": {
+    "fieldName": "clientID",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": [
+    "xevUsersDataTrigger46d60591",
+    "ClientFetcher"
+  ]
+}

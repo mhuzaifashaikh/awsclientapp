@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "paths": {
+    "/client/{clientId}": {
+      "name": "/client/{clientId}",
+      "lambdaFunction": "ClientFetcher",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/addClient": {
+      "name": "/addClient",
+      "lambdaFunction": "UsersTest",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
