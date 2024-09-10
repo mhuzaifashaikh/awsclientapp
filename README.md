@@ -1,9 +1,58 @@
-# Getting Started with Create React App
+# Full Stack AWS-React Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a comprehensive full-stack AWS application, designed to provide a seamless user experience. Upon signing in or registering, users are welcomed by a beautiful homepage, offering easy access to their client portfolio. For new client additions, a sleek and efficiently designed form enables rapid data entry, directly updating a cloud-based database. Following submission, users are redirected to a dedicated client management page, showcasing a comprehensive list of all clients, including the newly added entry.
 
-## Available Scripts
+## - Technologies used, and how they work
+### Technologies Used
 
+#### Frontend
+* **React**: User interface and client-side logic
+
+#### Backend
+* **AWS CLI**: Command-line tool for interacting with AWS services
+* **AWS Amplify**: Development platform for building scalable mobile and web applications
+* **AWS API Gateway**: RESTful API for handling client requests
+* **AWS Lambda**: Serverless compute service for executing business logic
+
+#### Database
+* **Amazon DynamoDB**: NoSQL database for storing client data
+
+#### Authentication
+* **AWS Amplify Auth**: Authentication library for managing user sessions
+* **AWS Cognito**: User identity and access management service
+
+#### Other
+* **AWS Amplify CLI**: For local development, testing, and deployment of the application
+
+### How it all works
+
+#### User Authentication
+
+* Users sign in or sign up using AWS Amplify Auth, which utilizes AWS Cognito for secure user identity and access management.
+
+#### Client Form Submission
+
+* When a user submits a client form, the application uses AWS API Gateway to send a PUT request to a Lambda function.
+
+#### Lambda Function
+
+* The Lambda function interacts with Amazon DynamoDB, adding the new client data to the database.
+
+#### Client Page
+
+* When a user navigates to the client page, API Gateway automatically triggers the Lambda function's GET method.
+* The Lambda function queries DynamoDB, retrieving all records associated with the logged-in user.
+* The application displays the retrieved data on the client page, providing a personalized view of the user's clients.
+
+This workflow showcases the application's ability to handle user authentication, data submission, and data retrieval, all while leveraging the scalability and reliability of AWS services.
+
+
+## - Test it out
+
+#### You can either use this link provided by AWS Amplify upon deployment to create an account and test the app out.
+https://main.d3m6cl65omgl3g.amplifyapp.com/
+
+#### Or, you can follow the instructions provided by React, below.
 In the project directory, you can run:
 
 ### `npm start`
