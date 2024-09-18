@@ -30,7 +30,7 @@ function App({ signOut, user }) { //'user' can be used to keep track of user ses
     <Menu secondary >
 
     {/* <MenuItem><h1>xevClients</h1></MenuItem> */}
-    <MenuItem><h1>HuzaifaClientApp</h1></MenuItem>
+    <MenuItem><h1>XEVRON</h1></MenuItem>
 
         <MenuItem
           name='clients'

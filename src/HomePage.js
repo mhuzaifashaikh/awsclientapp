@@ -16,7 +16,7 @@ function HomePage({setCurrentView}){
     return(
         <div>
             <Header as='h1' className="myHeaderHome">Welcome To 
-                <br/> <div className="AppNameHome"> HuzaifaClientApp</div> 
+                <br/> <div className="AppNameHome"> Xevron</div> 
                 <br /><Button className="styledButton01" onClick={handleSubmit}>View My Clients</Button>
             </Header>
   
