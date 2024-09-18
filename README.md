@@ -1,5 +1,6 @@
 # Full Stack AWS-React Application
-<img width="951" alt="Screen Shot 2024-09-10 at 12 52 10 PM" src="https://github.com/user-attachments/assets/79ea20c3-ba6f-4c22-96df-f62634a8ef6f">
+<img width="1172" alt="Screen Shot 2024-09-18 at 12 20 39 PM" src="https://github.com/user-attachments/assets/c257407b-5de7-4f16-9feb-8e3430efb049">
+
 This is a comprehensive full-stack AWS application, designed to provide a seamless user experience. Upon signing in or registering, users are welcomed by a beautiful homepage, offering easy access to their client portfolio. For new client additions, a sleek and efficiently designed form enables rapid data entry, directly updating a cloud-based database. Following submission, users are redirected to a dedicated client management page, showcasing a comprehensive list of all clients, including the newly added entry.
 
 ## - Technologies used, and how they work
